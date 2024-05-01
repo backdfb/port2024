@@ -40,3 +40,28 @@ export const skillText = [
     desc: "어린시절부터 레고 조립을 좋아했고 나만의 공간에서의 사색을 좋아했다. 내 창작물을 마음껏 만들 수 있다는 것에 코딩이라는 것은 큰 매력으로 보인다.",
     },
 ]
+
+export const siteText = [
+    {
+        text: ["make", "complete","standard"],
+        title: "퀴즈 사이트",
+        code: "https://github.com/backdfb/QuizProject", //깃주소
+        view: "https://quiz-project-pink.vercel.app", //배포 사이트 주소
+        info: [
+            "site coding",
+            "production period: 1 week",
+            "use stack: HTML5, CSS3, JavaScript"
+        ],
+    },
+    {
+        text: ["make", "complete","react.js"],
+        title: "리액트를 이용한 타이핑 효과",
+        code: "https://github.com/backdfb/effect1", //깃주소
+        view: "https://effect1-backdfbs-projects.vercel.app/", //배포 사이트 주소
+        info: [
+            "site coding",
+            "production period: 2 days",
+            "use stack: react.js"
+        ],
+    },
+]
