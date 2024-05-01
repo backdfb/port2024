@@ -7,6 +7,7 @@ import Site from "../components/Site";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Main from "../components/Main";
+import Port from "../components/Port";
 
 const HomeView = () => {
   return (
@@ -17,6 +18,7 @@ const HomeView = () => {
           <Intro />
           <Skill />
           <Site />
+          <Port />
           <Contact />
         </Main>
         <Footer />
