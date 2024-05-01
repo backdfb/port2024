@@ -58,6 +58,17 @@ export const siteText = [
     },
     {
         text: ["make", "complete","react.js"],
+        title: "카운트 다운 - 기본기 연습",
+        code: "https://github.com/backdfb/react_counter", //깃주소
+        view: "https://react-counter-indol.vercel.app/", //배포 사이트 주소
+        info: [
+            "count down",
+            "production period: 1 days",
+            "use stack: HTML5, CSS3, JavaScript"
+        ],
+    },
+    {
+        text: ["make", "complete","react.js"],
         title: "리액트를 이용한 타이핑 효과",
         code: "https://github.com/backdfb/effect1", //깃주소
         view: "https://effect1-backdfbs-projects.vercel.app/", //배포 사이트 주소
@@ -109,5 +120,23 @@ export const contactText = [
     {
         link: "mailto:wva22lfr@gmail.com",
         title: "mail : wva22lfr@gmail.com",
+    },
+];
+
+export const footerText = [
+    {
+        title: "youtube",
+        desc: "얼마 없는 제 영상입니다.",
+        link: "https://www.youtube.com/@backdfb",
+    },
+    {
+        title: "github",
+        desc: "깃헙에 저장한 그동안의 실습과 제작물입니다.",
+        link: "https://github.com/backdfb",
+    },
+    {
+        title: "blog",
+        desc: "블로그에 놀러와주세요.",
+        link: "https://velog.io/@wva22lfr/",
     },
 ];
