@@ -1,3 +1,6 @@
+import port01 from "../assets/img/port01.png"
+import port02 from "../assets/img/port02.png"
+
 export const headerNav = [
     {
         title: "intro",
@@ -60,6 +63,27 @@ export const siteText = [
             "production period: 2 days",
             "use stack: react.js"
         ],
+    },
+];
+
+export const portText = [
+    {
+        num: "01",
+        title: "뉴스레터 signUp 페이지",
+        desc: "프론트엔드 멘토 사이트의 실습물입니다. HTML, CSS, JavaScript의 기본기를 잊지 않기 위하여 제작해보았습니다. 창작물이 아니라는 점이 한계여서 아쉬움이 남는 작품입니다.",
+        img: port01,
+        code: "https://github.com/backdfb/newsletterSignup",
+        view: "https://newsletter-signup-three-mu.vercel.app/",
+        name: "news letter signup",
+    },
+    {
+        num: "02",
+        title: "페스티벌 랜딩 페이지",
+        desc: "리액트를 이용한 페스티벌 정보 랜딩 페이지 입니다. 클릭할 때마다 이미지를 수평 이동 하도록 효과를 넣었습니다. 여러모로 css나 디자인, 특히 반응형이 구현되지 않아서 아쉬웠습니다. 추후 틈나는 대로 업데이트 예정입니다.",
+        img: port02,
+        code: "https://github.com/backdfb/miniProject/tree/main",
+        view: "https://mini-project-chi-five.vercel.app/",
+        name: "f-library",
     },
 ]
 
