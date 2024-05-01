@@ -65,3 +65,14 @@ export const siteText = [
         ],
     },
 ]
+
+export const contactText = [
+    {
+        link: "https://www.instagram.com/backdfb",
+        title: "insta : @backdfb",
+    },
+    {
+        link: "mailto:wva22lfr@gmail.com",
+        title: "mail : wva22lfr@gmail.com",
+    },
+];
