@@ -67,6 +67,17 @@ export const siteText = [
             "use stack: react.js"
         ],
     },
+    {
+        text: ["make", "complete","react.js"],
+        title: "로그인폼",
+        code: "https://github.com/backdfb/loginform", //깃주소
+        view: "https://loginform-two-mu.vercel.app/", //배포 사이트 주소
+        info: [
+            "site coding",
+            "production period: 1 day",
+            "use stack: HTML5, CSS3, JavaScript"
+        ],
+    },
 ];
 
 export const portText = [
